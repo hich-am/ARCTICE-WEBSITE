@@ -21,7 +21,7 @@ export default function ProductCard({ product, index = 0 }) {
                     <div
                         className="w-full h-full transition-transform duration-700 ease-out group-hover:scale-105"
                         style={{
-                            background: `linear-gradient(135deg, #111827 0%, #0A192F 40%, ${p.colors?.[0]?.hex || '#111827'} 100%)`,
+                            background: `linear-gradient(135deg, #0B1120 0%, #04080F 40%, ${p.colors?.[0]?.hex || '#0B1120'} 100%)`,
                         }}
                     />
 
@@ -33,7 +33,7 @@ export default function ProductCard({ product, index = 0 }) {
                     )}
 
                     {/* Hover glow */}
-                    <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10 shadow-[inset_0_0_60px_rgba(0,180,216,0.08)]" />
+                    <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10 shadow-[inset_0_0_60px_rgba(56,189,248,0.08)]" />
                 </div>
 
                 {/* Info */}

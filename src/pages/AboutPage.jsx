@@ -28,7 +28,7 @@ export default function AboutPage() {
                 <div
                     className="absolute inset-0"
                     style={{
-                        background: 'radial-gradient(ellipse at 50% 60%, rgba(0,180,216,0.06) 0%, transparent 60%), linear-gradient(180deg, #0A192F 0%, #111827 100%)',
+                        background: 'radial-gradient(ellipse at 50% 60%, rgba(56,189,248,0.06) 0%, transparent 60%), linear-gradient(180deg, #04080F 0%, #0B1120 100%)',
                     }}
                 />
                 <div className="relative z-10 text-center px-6">
@@ -116,7 +116,7 @@ export default function AboutPage() {
                             <div
                                 className="absolute inset-0"
                                 style={{
-                                    background: 'linear-gradient(135deg, #111827 0%, #0A192F 40%, rgba(0,180,216,0.08) 80%, #111827 100%)',
+                                    background: 'linear-gradient(135deg, #0B1120 0%, #04080F 40%, rgba(56,189,248,0.08) 80%, #0B1120 100%)',
                                 }}
                             />
                             <div className="absolute inset-0 flex items-center justify-center">

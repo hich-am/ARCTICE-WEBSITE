@@ -1,24 +1,20 @@
 @import "tailwindcss";
 
 @theme {
-  --color-deep-navy: #0A192F;
-  --color-charcoal: #111827;
-  --color-mist-gray: #E2E8F0;
-  --color-cold-teal: #00B4D8;
-  --color-teal-glow: rgba(0, 180, 216, 0.25);
-  --color-dark-surface: #0d1b2a;
-  --color-card-bg: #1a2332;
-  --color-border-subtle: rgba(226, 232, 240, 0.08);
+  --color-deep-navy: #04080F;
+  --color-charcoal: #0B1120;
+  --color-mist-gray: #C9D1DE;
+  --color-cold-teal: #38BDF8;
+  --color-teal-glow: rgba(56, 189, 248, 0.22);
+  --color-dark-surface: #070D1A;
+  --color-card-bg: #101828;
+  --color-border-subtle: rgba(200, 210, 230, 0.07);
 
   --font-heading: 'Outfit', sans-serif;
   --font-body: 'Inter', sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* ─── Base ───────────────────────────────────── */
 
 html {
   scroll-behavior: smooth;
@@ -38,6 +34,8 @@ body {
   color: var(--color-deep-navy);
 }
 
+/* ─── Scrollbar ──────────────────────────────── */
+
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -54,6 +52,8 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-cold-teal);
 }
+
+/* ─── Typography ─────────────────────────────── */
 
 h1,
 h2,
@@ -82,7 +82,8 @@ img {
   height: auto;
 }
 
-/* Grain overlay */
+/* ─── Grain Overlay ──────────────────────────── */
+
 .grain-overlay {
   position: fixed;
   top: 0;
@@ -96,7 +97,8 @@ img {
   background-repeat: repeat;
 }
 
-/* Custom cursor */
+/* ─── Custom Cursor ──────────────────────────── */
+
 .custom-cursor {
   width: 20px;
   height: 20px;
@@ -122,8 +124,10 @@ img {
   }
 }
 
-/* Button glow */
+/* ─── Buttons ────────────────────────────────── */
+
 .btn-primary {
+  display: inline-block;
   background: var(--color-cold-teal);
   color: var(--color-deep-navy);
   font-family: var(--font-heading);
@@ -134,6 +138,8 @@ img {
   border: none;
   transition: all 0.3s ease;
   font-size: 0.85rem;
+  text-align: center;
+  line-height: 1.4;
 }
 
 .btn-primary:hover {
@@ -142,6 +148,7 @@ img {
 }
 
 .btn-secondary {
+  display: inline-block;
   background: transparent;
   color: var(--color-mist-gray);
   font-family: var(--font-heading);
@@ -149,9 +156,11 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   padding: 13px 34px;
-  border: 1px solid rgba(226, 232, 240, 0.2);
+  border: 1px solid rgba(200, 210, 230, 0.2);
   transition: all 0.3s ease;
   font-size: 0.85rem;
+  text-align: center;
+  line-height: 1.4;
 }
 
 .btn-secondary:hover {
@@ -160,10 +169,11 @@ img {
   box-shadow: 0 0 15px var(--color-teal-glow);
 }
 
-/* Glass blur */
+/* ─── Glass ──────────────────────────────────── */
+
 .glass {
   background: rgba(10, 25, 47, 0.7);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(226, 232, 240, 0.06);
+  border: 1px solid rgba(200, 210, 230, 0.06);
 }

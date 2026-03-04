@@ -14,7 +14,7 @@ export default function DropPage() {
                 <div
                     className="absolute inset-0"
                     style={{
-                        background: 'radial-gradient(ellipse at 50% 30%, rgba(0,180,216,0.1) 0%, transparent 60%), linear-gradient(180deg, #0A192F 0%, #111827 100%)',
+                        background: 'radial-gradient(ellipse at 50% 30%, rgba(56,189,248,0.1) 0%, transparent 60%), linear-gradient(180deg, #04080F 0%, #0B1120 100%)',
                     }}
                 />
                 <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] border border-cold-teal/5 rounded-full" />
@@ -75,8 +75,8 @@ export default function DropPage() {
                     {/* Large editorial images */}
                     <div className="space-y-8">
                         {[
-                            { aspect: 'aspect-[16/7]', gradient: 'linear-gradient(135deg, #111827 0%, #0A192F 50%, rgba(0,180,216,0.1) 100%)', text: 'MOVE THROUGH THE COLD' },
-                            { aspect: 'aspect-[16/9]', gradient: 'linear-gradient(225deg, #111827 0%, #0d1b2a 50%, rgba(0,180,216,0.08) 100%)', text: 'SILENCE. POWER. PRECISION.' },
+                            { aspect: 'aspect-[16/7]', gradient: 'linear-gradient(135deg, #0B1120 0%, #04080F 50%, rgba(56,189,248,0.1) 100%)', text: 'MOVE THROUGH THE COLD' },
+                            { aspect: 'aspect-[16/9]', gradient: 'linear-gradient(225deg, #0B1120 0%, #070D1A 50%, rgba(56,189,248,0.08) 100%)', text: 'SILENCE. POWER. PRECISION.' },
                         ].map((panel, i) => (
                             <FadeIn key={i} delay={i * 0.15}>
                                 <div className={`relative ${panel.aspect} overflow-hidden group`}>
@@ -99,7 +99,7 @@ export default function DropPage() {
                                     <div
                                         className="absolute inset-0 transition-transform duration-[1.2s] group-hover:scale-105"
                                         style={{
-                                            background: `linear-gradient(${180 + i * 90}deg, #111827 0%, #0A192F 60%, rgba(0,180,216,${0.06 + i * 0.04}) 100%)`,
+                                            background: `linear-gradient(${180 + i * 90}deg, #0B1120 0%, #04080F 60%, rgba(56,189,248,${0.06 + i * 0.04}) 100%)`,
                                         }}
                                     />
                                 </div>

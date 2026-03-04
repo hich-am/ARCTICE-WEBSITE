@@ -35,7 +35,7 @@ export default function SnowParticles() {
             particles.forEach((p) => {
                 ctx.beginPath();
                 ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-                ctx.fillStyle = `rgba(226, 232, 240, ${p.opacity})`;
+                ctx.fillStyle = `rgba(200, 210, 230, ${p.opacity})`;
                 ctx.fill();
 
                 p.y += p.speed;

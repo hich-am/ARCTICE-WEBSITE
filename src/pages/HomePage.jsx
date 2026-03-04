@@ -30,7 +30,7 @@ export default function HomePage() {
                     <div
                         className="absolute inset-0"
                         style={{
-                            background: 'radial-gradient(ellipse at 30% 50%, rgba(0,180,216,0.08) 0%, transparent 60%), radial-gradient(ellipse at 70% 80%, rgba(0,180,216,0.05) 0%, transparent 50%), linear-gradient(180deg, #0A192F 0%, #0d1b2a 50%, #111827 100%)',
+                            background: 'radial-gradient(ellipse at 30% 50%, rgba(56,189,248,0.08) 0%, transparent 60%), radial-gradient(ellipse at 70% 80%, rgba(56,189,248,0.05) 0%, transparent 50%), linear-gradient(180deg, #04080F 0%, #070D1A 50%, #0B1120 100%)',
                         }}
                     />
                     {/* Glow orbs */}
@@ -152,7 +152,7 @@ export default function HomePage() {
                                 <div
                                     className="absolute inset-0"
                                     style={{
-                                        background: 'linear-gradient(160deg, #111827 0%, #0A192F 30%, rgba(0,180,216,0.15) 70%, #0A192F 100%)',
+                                        background: 'linear-gradient(160deg, #0B1120 0%, #04080F 30%, rgba(56,189,248,0.15) 70%, #04080F 100%)',
                                     }}
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-deep-navy/60 to-transparent" />
@@ -208,7 +208,7 @@ export default function HomePage() {
                                     <div
                                         className="absolute inset-0 transition-transform duration-700 group-hover:scale-110"
                                         style={{
-                                            background: `linear-gradient(${45 + i * 30}deg, #111827 0%, #0A192F ${30 + i * 5}%, rgba(0,180,216,${0.05 + i * 0.02}) 100%)`,
+                                            background: `linear-gradient(${45 + i * 30}deg, #0B1120 0%, #04080F ${30 + i * 5}%, rgba(56,189,248,${0.05 + i * 0.02}) 100%)`,
                                         }}
                                     />
                                     <div className="absolute inset-0 bg-deep-navy/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">

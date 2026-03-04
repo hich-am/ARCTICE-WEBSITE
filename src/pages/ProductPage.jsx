@@ -64,7 +64,7 @@ export default function ProductPage() {
                                 <div
                                     className="absolute inset-0"
                                     style={{
-                                        background: `linear-gradient(160deg, #111827 0%, #0A192F 40%, ${product.colors.find(c => c.name === selectedColor)?.hex || product.colors[0].hex}40 100%)`,
+                                        background: `linear-gradient(160deg, #0B1120 0%, #04080F 40%, ${product.colors.find(c => c.name === selectedColor)?.hex || product.colors[0].hex}40 100%)`,
                                     }}
                                 />
                                 {product.isLimited && (
@@ -84,7 +84,7 @@ export default function ProductPage() {
                                         <div
                                             className="w-full h-full hover:scale-105 transition-transform duration-300"
                                             style={{
-                                                background: `linear-gradient(${120 + i * 40}deg, #111827 0%, #0A192F ${40 + i * 10}%, rgba(0,180,216,${0.05 + i * 0.03}) 100%)`,
+                                                background: `linear-gradient(${120 + i * 40}deg, #0B1120 0%, #04080F ${40 + i * 10}%, rgba(56,189,248,${0.05 + i * 0.03}) 100%)`,
                                             }}
                                         />
                                     </div>
